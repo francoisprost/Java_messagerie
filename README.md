@@ -23,4 +23,4 @@ les messages seront visibles par tous les utilisateurs connectés) ;
 1. mettre en œuvre une application côté client et côté serveur ;
 2. établir la connexion entre les deux applications ;
 6. proposer aux utilisateurs une option permettant de bannir un pseudo (définitivement seulement) ;
-8. permettre aux utilisateurs de se déconnecter (une notification sera envoyée aux autres utilisateurs).
+8. permettre aux utilisateurs de se déconnecter.
