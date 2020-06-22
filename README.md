@@ -24,3 +24,9 @@ les messages seront visibles par tous les utilisateurs connectés) ;
 2. établir la connexion entre les deux applications ;
 6. proposer aux utilisateurs une option permettant de bannir un pseudo (définitivement seulement) ;
 8. permettre aux utilisateurs de se déconnecter.
+
+## Notice d'utilisation et remarques
+
+Pour faire fonctionner le projet, il faut lancer le TestServeur puis le TestClient. La conversation se fait entre l'application client et serveur. Les fonctionnalités sont implémentées seulement du côté client car normalement, c'est les clients qui discutent entre eux et non le serveur avec le client.
+Lors de l'execution du code, on se connecte (automatiquement) à l'utilisateur local 127.0.0.1 pour la mise à bien du test.
+Pour réaliser ce projet, je me suis aidé d'Internet mais j'ai réalisé le code moi-même
