@@ -168,10 +168,9 @@ public class Client extends JFrame {
 		  JOptionPane jop = new JOptionPane(), jop2 = new JOptionPane();
 		  String nom = jop.showInputDialog(null, "Votre pseudo", "Choix de pseudo", JOptionPane.QUESTION_MESSAGE);
 		  for (int i=0; i<PseudosBannis.length; i++) {
-			  System.out.print("\n i" + PseudosBannis[i].toString() + "i");
+			  System.out.print("\n i" + PseudosBannis[i].toString() + "i"); //Test egalité
 			  System.out.print("\n i" + nom + "i");
 			  if (PseudosBannis[i].toString().equals(nom) == true) {
-				  System.out.print("\n ouiouitban");
 				  test = false;
 			  }
 		  }
@@ -184,6 +183,7 @@ public class Client extends JFrame {
 		  }
 	}
 	
+	//Mise à jour du pseudo
     public void PseudoNewListener( ActionEvent event ) {
         ChoixPseudo();
     }
