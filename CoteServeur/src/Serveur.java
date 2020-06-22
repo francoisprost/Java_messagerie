@@ -87,7 +87,7 @@ public class Serveur extends JFrame{
 				MontreMessage("\n Message non recevable");
 			}
 		}
-		while(!Message.equals("CLIENT - END"));
+		while(!Message.equals("END"));
 	}
 	
 	//Ferme les flux et prises après avoir fini de discuter
@@ -107,9 +107,9 @@ public class Serveur extends JFrame{
 	//Envoie un message au client
 	private void EnvoieMessage(String Message) {
 		try {
-			Sortie.writeObject("SERVEUR - " + Message);
+			Sortie.writeObject("Serveur : " + Message);
 			Sortie.flush();
-			MontreMessage("\nSERVEUR - " + Message);
+			MontreMessage("\nServeur : " + Message);
 		}
 		catch(IOException ioException) {
 			FenetreTchat.append("\n Erreur: Le message n'arrive pas à être envoyé");
